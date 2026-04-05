@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data & models
+data/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Outputs & logs
+runs/
+logs/
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+.env
+.env.local
+*.swp
+
+# TensorBoard
+runs/*/events.out.tfevents.*
